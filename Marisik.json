@@ -1,6 +1,6 @@
 {
   "Name": “Marisik”,
-  "GlobalProxy": “false,
+  "GlobalProxy": “false",
   "UseChunkFiles": "true",
   "RemoteDns": "8.8.8.8",
   "DomesticDns": "77.88.8.8",
