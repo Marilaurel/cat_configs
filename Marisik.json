@@ -1,66 +1,56 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww21280\viewh15140\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-\{\
-  "Name": \'93Marisik\'94,\
-  "GlobalProxy": \'93false,\
-  "UseChunkFiles": "true",\
-  "RemoteDns": "8.8.8.8",\
-  "DomesticDns": "77.88.8.8",\
-  "RemoteDNSType": "DoH",\
-  "RemoteDNSDomain": "https://8.8.8.8/dns-query",\
-  "RemoteDNSIP": "8.8.8.8",\
-  "DomesticDNSType": "DoH",\
-  "DomesticDNSDomain": "https://77.88.8.8/dns-query",\
-  "DomesticDNSIP": "77.88.8.8",\
-  "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",\
-  "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",\
-  "LastUpdated": "1775278882",\
-  "DnsHosts": \{\
-    "lkfl2.nalog.ru": "213.24.64.175",\
-    "lknpd.nalog.ru": "213.24.64.181"\
-  \},\
-  "RouteOrder": "block-proxy-direct",\
-  "DirectSites": [\
-    "geosite:private",\
-    "geosite:category-ru",\
-    "geosite:whitelist",\
-    "geosite:microsoft",\
-    "geosite:apple",\
-    "geosite:google-play",\
-    "geosite:epicgames",\
-    "geosite:riot",\
-    "geosite:escapefromtarkov",\
-    "geosite:steam",\
-    "geosite:origin",\
-    "geosite:twitch",\
-    "geosite:pinterest",\
-    "geosite:faceit"\
-  ],\
-  "DirectIp": [\
-    "geoip:private",\
-    "geoip:direct"\
-  ],\
-  "ProxySites": [\
-    "geosite:github",\
-    "geosite:twitch-ads",\
-    "geosite:youtube",\
-    "geosite:telegram"\
-  ],\
-  "ProxyIp": [],\
-  "BlockSites": [\
-    "geosite:win-spy",\
-    "geosite:torrent",\
-    "geosite:category-ads"\
-  ],\
-  "BlockIp": [],\
-  "DomainStrategy": "IPIfNonMatch",\
-  "FakeDNS": "false"\
-\}\
+{
+  "Name": “Marisik”,
+  "GlobalProxy": “false,
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
+  "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+  "LastUpdated": "1775278882",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:whitelist",
+    "geosite:microsoft",
+    "geosite:apple",
+    "geosite:google-play",
+    "geosite:epicgames",
+    "geosite:riot",
+    "geosite:escapefromtarkov",
+    "geosite:steam",
+    "geosite:origin",
+    "geosite:twitch",
+    "geosite:pinterest",
+    "geosite:faceit"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct"
+  ],
+  "ProxySites": [
+    "geosite:github",
+    "geosite:twitch-ads",
+    "geosite:youtube",
+    "geosite:telegram"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
 }
